@@ -1,0 +1,17 @@
+// 👇 开头不要有其他代码！
+plugins {
+    id 'com.android.library'
+}
+
+android {
+    namespace 'dev.isar.isar_flutter_libs' // ✅ 非常关键
+    compileSdkVersion 33
+
+    defaultConfig {
+        minSdkVersion 21
+    }
+}
+
+dependencies {
+    implementation "androidx.startup:startup-runtime:1.1.1"
+}
